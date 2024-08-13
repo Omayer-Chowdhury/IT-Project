@@ -184,16 +184,17 @@ hr{
 }
 
 .right-image{
-    width: 600px;
-    height: 800px;
+    width: 400px;
+    height: 600px;
     overflow: hidden;
-    background-image: url(./pictures/omayer.JPG);
+    background-image: url(./pictures/partner.jpg);
     background-size: cover;
     margin: 80px auto;
     border-top-left-radius: 40px;
     border-radius: 40px;
-    margin-left: 30px;
+    margin-left: 90px;
     border-bottom-right-radius: 30%;
+    align-content: center;
 }
 
 .navbar{
