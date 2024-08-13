@@ -161,11 +161,11 @@ hr{
 }
 
 .right-image{
-    width: 100%;
-    
+   width: 500px;
+   height: 500px;
     overflow: hidden;
     background-image: url(./pictures/partner.jpg);
-    /* background-size: cover; */
+    background-size: cover;
     margin: 80px auto;
     border-top-left-radius: 40px;
     border-radius: 40px;
