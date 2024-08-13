@@ -8,6 +8,28 @@
     font-weight: 600;
 }
 
+.home-one{
+    transition: 0.5s  ;
+}
+
+.home-one:hover{
+    color: rgb(110, 8, 206);
+    font-size: 20px;
+   
+    
+}
+
+.home-two{
+    transition: 0.5s;
+}
+
+.home-two:hover{
+    color: rgb(110, 8, 206);
+    font-size: 20px;
+   
+    
+}
+
 #service{
     font-size: 20px;
     font-weight: 600;
@@ -40,11 +62,8 @@ a{
 .navbar-brand{
     font-size: 30px;
     font-weight: 600;
-    /* text-shadow: 1.5px 1.5px; */
     font-family: monospace;
-    /* padding-right: 70px; */
     margin-right: 200px;
-   
 }
 
 #project{
@@ -77,21 +96,11 @@ a{
     overflow: hidden;
 
 }
-
-/* .body-section{
-   padding-top: 100px;
-    margin-left: 100px;
-} */
-
-
-
-
 #badge{
     font-size: 20px;
     font-weight: 400;
     margin-left: 60px;
     margin-top: 80px;
-    
 }
 #text{
     font-size: 70px;
@@ -101,7 +110,6 @@ a{
 }
 #text2{
     margin-left: 60px;
-    
 }
 
 #button{
@@ -115,30 +123,10 @@ a{
     font-weight: bold;
 }
 
-#pic1{
-    border-radius: 50%;
-   position: absolute;
-   top:755px;
-   left: 350px;
-}
-#pic2{
-    border-radius: 50%;
-    position: absolute;
-    top: 755px;
-    left: 375px;
-    
-}
-#pic3{
-    border-radius: 50%;
-    position: absolute;
-    top:755px;
-    left: 405px;
-}
+
+
 
 .text2{
-    position: absolute;
-    left: 430px;
-    top: 755px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -153,9 +141,6 @@ a{
 }
 
 .text3{
-    position: absolute;
-    top: 760px;
-    left: 480px;
     font-weight: 500;
 }
 
@@ -167,14 +152,6 @@ hr{
     margin-left: 60px;
     margin-top: 10px;
 }
-
-/* .right-image{
-    margin-left: 80px;
-    margin-top: 60px;
-    width: 500px;
-    height: 700px;
-} */
-
 .rating2{
     margin-left: 140px;
 }
@@ -184,11 +161,11 @@ hr{
 }
 
 .right-image{
-    width: 400px;
-    height: 600px;
+    width: 100%;
+    
     overflow: hidden;
     background-image: url(./pictures/partner.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     margin: 80px auto;
     border-top-left-radius: 40px;
     border-radius: 40px;
@@ -200,7 +177,6 @@ hr{
 .navbar{
     position: fixed;
 }
-.circle-pic{
-    display: block;
-}
+
+
 
