@@ -1,11 +1,14 @@
 
 #home:hover{
     color: blueviolet;
+    transform: rotateX(360deg);
     
 }
 #home{
     font-size: 20px;
     font-weight: 600;
+    transition: 1s;
+    transition-delay:0.5s ;
 }
 
 .home-one{
@@ -163,10 +166,10 @@ hr{
 .right-image{
    width: 500px;
    height: 500px;
-    overflow: hidden;
-    background-image: url(./pictures/partner.jpg);
+    background-image: url(./pictures/p1.jpg);
+    
     background-size: cover;
-    margin: 80px auto;
+    /* margin: 80px auto; */
     border-top-left-radius: 40px;
     border-radius: 40px;
     margin-left: 90px;
@@ -178,5 +181,91 @@ hr{
     position: fixed;
 }
 
+.circle-img-section{
+    position: relative;}
+
+#img1{
+     position: absolute;
+    top: -2px;
+    z-index: 1;
+    
+}
+
+#img2{
+    position: absolute;
+    top: -4px;
+    left: 22px;
+    z-index: 2 ;
+    
+}
+
+#img3{
+position: absolute;
+top: -4px;
+left: 50px;
+z-index: 3;
+}
+
+.text2{
+    position: absolute;
+    top: 2px;
+    left: 80px;
+    z-index: 4;
+}
+
+.text3{
+    position: absolute;
+    top: 5px;
+    left: 130px;
+    font-weight: bold;
+}
+
+.right-image{
+    position: relative;
+    z-index: 0;
+}
+
+.shape-icon{
+    position: absolute;
+    z-index: 1;
+    margin-left: -7px;
+    animation-name: move;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    from{left: -10px;  top:250px;  transform: translateY(20px); transition: 2s;
+    }
+    to{ top: 150px; left: -10px;}
+}
+
+.shapping{
+    position: relative;
+}
 
 
+.shape2{
+    position: absolute;
+    right: 20px;
+    top: -65px;
+    animation-name: Move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes Move{
+    from{
+        top: -65px;
+        right: 20px;
+        transform: translateY(20px);transition : 2s;
+        
+    }
+    to{
+        top: -120px;
+        right: 20px;
+    }
+}
