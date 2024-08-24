@@ -1,7 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
 
 #home:hover{
     color: blueviolet;
-    transform: rotateX(360deg);
+    
     
 }
 #home{
@@ -17,6 +22,7 @@
 
 .home-one:hover{
     color: rgb(110, 8, 206);
+    
     font-size: 20px;
    
     
@@ -32,6 +38,8 @@
    
     
 }
+
+
 
 #service{
     font-size: 20px;
@@ -166,15 +174,21 @@ hr{
 .right-image{
    width: 500px;
    height: 500px;
-    background-image: url(./pictures/p1.jpg);
-    
+   background-image: url(./pictures/p1.jpg);
+    margin-top: 40px;
     background-size: cover;
+    overflow: hidden;
     /* margin: 80px auto; */
     border-top-left-radius: 40px;
     border-radius: 40px;
     margin-left: 90px;
     border-bottom-right-radius: 30%;
     align-content: center;
+    /* display: block; */
+    position: static;
+    z-index:0;
+    
+    
 }
 
 .navbar{
@@ -220,15 +234,15 @@ z-index: 3;
     font-weight: bold;
 }
 
-.right-image{
-    position: relative;
-    z-index: 0;
-}
+
+
 
 .shape-icon{
     position: absolute;
     z-index: 1;
-    margin-left: -7px;
+    /* margin-left: -7px; */
+    margin-left: 858px;
+    margin-top: 200px;
     animation-name: move;
     animation-duration: 3s ;
     animation-iteration-count: infinite;
@@ -268,4 +282,153 @@ z-index: 3;
         top: -120px;
         right: 20px;
     }
+}
+
+
+
+ /* body-section */
+
+
+
+ .body-image-section{
+    position: relative;
+ }
+
+ .body-image-1{
+    width: 250px;
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    border-radius: 20px;
+    border-bottom-right-radius: 60px;
+    z-index: 1;
+ }
+
+ .body-image-2{
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 30px;
+    border-bottom-left-radius: 60px;
+    left: 200px;
+    top: 220px;
+
+    
+ }
+
+ .shape-3{
+    position: absolute;
+    top: 400px;
+    left: 95px;
+ }
+
+ .ex-text1{
+    font-size: 45px;
+    color: rgb(58, 10, 249);
+    position: absolute;
+    left:330px ;
+    top: 100px;
+ }
+
+.ex-text2{
+    position: absolute;
+    left: 330px;
+    top: 166px;
+    font-size: 18px;
+    font-weight: 250;
+}
+
+.shape-4{
+    position: absolute;
+    top: 480px;
+    left: 90px;
+}
+
+
+.table{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-div{
+    margin-right: 200px;
+}
+
+.boxes1{
+    position: relative;
+    
+}
+.box1{
+    position: absolute;
+    z-index: -1;
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.text-div .boxes1 .box2{
+     position:absolute; 
+     z-index: 1; 
+    left: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    
+}
+
+.boxes2{
+    position: relative;
+}
+
+.box1-1{
+    position: absolute;
+    z-index: -1;
+    top: 140px;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.text-div .boxes2 .box2-1{
+
+    position:absolute; 
+    z-index: 1; 
+   left: 10px;
+   top: 150px;
+   width: 20px;
+   height: 20px;
+   border-radius: 2px;
+   border: 1px solid blueviolet;
+   background-color: blueviolet;
+}
+
+.button-grp{
+    position: relative;
+}
+.button-grp .video-icon{
+    position: absolute;
+    background-image: url(./pictures/shape5.svg);
+    overflow: hidden;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    top: 250px;
+    left: 200px;
+    background-color:rgb(179, 175, 165);
+    cursor: pointer;
+    border: 1px ;
+    transition: 0.5s;
+}
+
+.button-grp .video-icon:hover {
+    scale: 1.2;
+    box-shadow: 2px black;
 }
