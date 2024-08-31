@@ -592,7 +592,7 @@ z-index: 3;
     grid-row-end: 1;
 }
 
-.badge{
+.badge1{
     display: inline-block;
     align-content: baseline;
     margin-bottom: 24px;
@@ -818,4 +818,127 @@ z-index: 3;
     to{
        top: 20px;
     }
+}
+
+.service-section{
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:rgb(247, 253, 247)
+}
+
+.main-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 960px;
+    
+}
+
+.service-header-wrapper{
+    margin-bottom: 70px;
+
+}
+
+.badge2{
+    display: inline-block;
+    align-content: baseline;
+    margin-bottom: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: static;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    height: 1.6;
+    color: #4a4a4a;
+    background-color: #f1f1f1;
+    border-radius: 83px;
+}
+
+.service-heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.service-large-paragraph{
+    font-size: 18px;
+    color: #4a4a4a;
+    font-weight: 400;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 30px;
+    justify-content: stretch;
+    align-content: stretch;
+}
+
+.service-card{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: #4a4a4a;
+    background-color:rgb(255, 255, 255);
+    border-radius: 24px;
+}
+
+.service-icon{
+    display: inline-block;
+    align-items: baseline;
+    margin-bottom: 32px;
+    max-width: 100%;
+}
+
+.service-card-content-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.service-card-heading{
+    font-size: 22px;
+    font-weight: 600;
+    color: #0a223c;
+}
+
+.service-card-heading:hover{
+    color: rgb(132, 45, 218);
+}
+
+.service-short-details{
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.service-text-wrapper{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.service-bottom-dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+.service-bottom-text{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.color-text{
+    color: #842dda;
 }
