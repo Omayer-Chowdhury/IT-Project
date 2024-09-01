@@ -942,3 +942,112 @@ z-index: 3;
 .color-text{
     color: #842dda;
 }
+
+.why-choose-us-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.why-choose-us-grid{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto;
+    justify-content: stretch;
+    align-content: stretch;
+    gap: 40px;
+    position: static;
+}
+
+.wcu-image-wrapper{
+    display: block;
+    max-width: 525px;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.wcu-shape-1{
+    display: block;
+    max-width: 100%;
+}
+
+.wcu-image{
+    display: block;
+    margin-top: -160px;
+    margin-left: 50px;
+    margin-right: 40px;
+    /* max-width: 410px; */
+    width: 100%;
+    border-radius: 40px;
+    border-top-left-radius: 80px;
+    
+}
+
+.wcu-shape-2{
+    display: inline-block;
+    align-items: baseline;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0%;
+    right: -25%;
+
+}
+
+.wcu-image-badge{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 42px;
+    padding-bottom: 24px;
+    position: absolute;
+    z-index: 2;
+    background-color:rgb(252, 252, 252);
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    left: 105px;
+    bottom: -55px;
+    right: auto;
+    box-shadow: 0px 10px 100px  rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 100px;
+    column-gap: 16px;
+    row-gap: 0px;
+}
+.badge-icon{
+    max-width: 100%;
+}
+
+.badge-text{
+    font-size: 16px;
+    color: #0a223c;
+    font-weight: 400;
+}
+
+.wcu-content-wrapper{
+    display: block;
+    max-width: 535px;
+    margin-left: 100px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: static;
+}
+
+.wcu-large-paragraph{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
