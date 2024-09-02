@@ -990,10 +990,24 @@ z-index: 3;
     display: inline-block;
     align-items: baseline;
     max-width: 100%;
-    position: absolute;
-    bottom: 0%;
-    right: -25%;
+    position: relative;
+    left: 500px;
+    bottom: 100px;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
+@keyframes moving {
+    from{
+        left: 500px;
+        bottom: 100px;
+    }    
+    to{
+        left: 500px;
+        bottom:200px ;
+    }
 }
 
 .wcu-image-badge{
@@ -1005,21 +1019,36 @@ z-index: 3;
     padding-top: 24px;
     padding-right: 42px;
     padding-bottom: 24px;
-    position: absolute;
+    position: relative;
     z-index: 2;
     background-color:rgb(252, 252, 252);
     border-top-left-radius: 32px;
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 12px;
     border-top-right-radius: 12px;
-    left: 105px;
-    bottom: -55px;
-    right: auto;
+     left: 145px;
+     top: -150px;
     box-shadow: 0px 10px 100px  rgba(0, 0, 0, 0.1);
     width: 250px;
     height: 100px;
     column-gap: 16px;
     row-gap: 0px;
+    animation-name: shifting;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shifting {
+    from{
+        left: 145px;
+        top: -150px;
+    }
+    to{
+        left: 145px;
+        top: -180px;
+    }
+    
 }
 .badge-icon{
     max-width: 100%;
@@ -1051,3 +1080,121 @@ z-index: 3;
     color: #4a4a4a;
 }
 
+.accordion-heading{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0a223c;
+}
+
+.accordion-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    background-color: white;
+    color: #842dda;
+}
+.accordion:after{
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: white;
+}
+
+
+.our-project-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(244, 236, 194, 0.2));
+    background-color: rgb(192, 186, 184);
+}
+
+.our-project-grid{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto;
+    justify-content: stretch;
+    align-content: start;
+    gap: 40px;
+    position: static;
+}
+
+.our-project-content-wrapper{
+    display: block;
+    max-width: 600px;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.our-project-large-paragraph{
+    margin-top: 24px;
+    margin-bottom: 48px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+.images{
+    width: 200px;
+    height: 252px;
+    border-radius: 20px;
+
+}
+
+.slider-section{
+    max-width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+.carousel-control-next{
+    position: relative;
+    top: 10px;
+    left: 35px;
+   
+  
+}
+
+.carousel-control-prev{
+    position: relative;
+    top: 42px;
+    left: -15px;
+}
+
+.button-box{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+
+.our-project-image-wrapper{
+    display: block;
+    
+    position: relative;
+    left: 100px;
+    top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 30px;
+    height: auto;
+}
+
+.project-main-image{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 400px;
+    border-radius: 20px;
+    border-top-left-radius: 60px;
+}
