@@ -31,20 +31,6 @@ ul{
    
     
 }
-
-.home-two{
-    transition: 0.5s;
-}
-
-.home-two:hover{
-    color: rgb(110, 8, 206);
-    font-size: 20px;
-   
-    
-}
-
-
-
 #service{
     font-size: 20px;
     font-weight: 600;
@@ -133,10 +119,6 @@ a{
     height: 50px;
     font-weight: bold;
 }
-
-
-
-
 .text2{
     width: 40px;
     height: 40px;
@@ -150,11 +132,9 @@ a{
     align-items: center;
    
 }
-
 .text3{
     font-weight: 500;
 }
-
 hr{
     margin-left: 60px;
     margin-top: 30px;
@@ -170,7 +150,6 @@ hr{
     margin-top: 100px;
 
 }
-
 .right-image{
    width: 500px;
    height: 500px;
@@ -189,21 +168,18 @@ hr{
     
     
 }
-
 .navbar{
     position: fixed;
 }
-
 .circle-img-section{
-    position: relative;}
-
+    position: relative;
+}
 #img1{
      position: absolute;
     top: -2px;
     z-index: 1;
     
 }
-
 #img2{
     position: absolute;
     top: -4px;
@@ -211,31 +187,24 @@ hr{
     z-index: 2 ;
     
 }
-
 #img3{
 position: absolute;
 top: -4px;
 left: 50px;
 z-index: 3;
 }
-
 .text2{
     position: absolute;
     top: 2px;
     left: 80px;
     z-index: 4;
 }
-
 .text3{
     position: absolute;
     top: 5px;
     left: 130px;
     font-weight: bold;
 }
-
-
-
-
 .shape-icon{
     position: absolute;
     z-index: 1;
@@ -253,12 +222,9 @@ z-index: 3;
     }
     to{ top: 150px; left: -10px;}
 }
-
 .shapping{
     position: relative;
 }
-
-
 .shape2{
     position: absolute;
     right: 20px;
@@ -269,7 +235,6 @@ z-index: 3;
     animation-direction: alternate;
     
 }
-
 @keyframes Move{
     from{
         top: -65px;
@@ -744,18 +709,15 @@ z-index: 3;
     display: block;
     margin-top: 100px;
 }
-
 .about-fact-wrapper{
     max-width: 970px;
 }
-
 .about-fact-heading{
     font-size: 22px;
     font-weight: 600;
     color: #0a223c;
     text-align: center;
 }
-
 .about-fact-flex{
     display: flex;
     flex-direction: row;
@@ -769,14 +731,12 @@ z-index: 3;
     justify-content: stretch;
     align-items: flex-start;
 }
-
 .about-fact-count{
     font-size: 32px;
     font-weight: 700;
     color: #0a223c;
     
 }
-
 .fact-text{
     font-size: 16px;
     font-weight: 400;
@@ -784,7 +744,6 @@ z-index: 3;
     margin-top: -15px;
     
 }
-
 .fact-separator{
     display: flex;
     flex-direction: column;
@@ -794,7 +753,6 @@ z-index: 3;
     height: 60px;
     background-color: #dbdbdb;
 }
-
 .separator-fill{
     display: block;
     width: 3px;
@@ -945,7 +903,6 @@ z-index: 3;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 .why-choose-us-grid{
     display: grid;
     grid-template-columns:auto auto;
@@ -955,24 +912,22 @@ z-index: 3;
     gap: 40px;
     position: static;
 }
-
 .wcu-image-wrapper{
     display: block;
     max-width: 525px;
-    position: relative;
+    position: static;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 
 }
-
 .wcu-shape-1{
     display: block;
     max-width: 100%;
 }
-
 .wcu-image{
+    position: static;
     display: block;
     margin-top: -160px;
     margin-left: 50px;
@@ -983,7 +938,6 @@ z-index: 3;
     border-top-left-radius: 80px;
     
 }
-
 .wcu-shape-2{
     display: inline-block;
     align-items: baseline;
@@ -996,7 +950,6 @@ z-index: 3;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
 @keyframes moving {
     from{
         left: 500px;
@@ -1007,7 +960,6 @@ z-index: 3;
         bottom:200px ;
     }
 }
-
 .wcu-image-badge{
     display: flex;
     justify-content: flex-start;
@@ -1036,7 +988,6 @@ z-index: 3;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
 @keyframes shifting {
     from{
         left: 145px;
@@ -1051,13 +1002,11 @@ z-index: 3;
 .badge-icon{
     max-width: 100%;
 }
-
 .badge-text{
     font-size: 16px;
     color: #0a223c;
     font-weight: 400;
 }
-
 .wcu-content-wrapper{
     display: block;
     max-width: 535px;
@@ -1068,7 +1017,6 @@ z-index: 3;
     grid-row-end: 2;
     position: static;
 }
-
 .wcu-large-paragraph{
     display: block;
     margin-top: 24px;
@@ -1077,19 +1025,17 @@ z-index: 3;
     font-weight: 400;
     color: #4a4a4a;
 }
-
 .accordion-heading{
     font-size: 18px;
     font-weight: 600;
     color: #0a223c;
+    position: static;
 }
-
 .accordion-paragraph{
     font-size: 16px;
     font-weight: 400;
     color: #4a4a4a;
 }
-
 .accordion-button:focus{
     box-shadow: none;
     background-color: white;
@@ -1098,11 +1044,9 @@ z-index: 3;
 .accordion:after{
     background-color: #fff;
 }
-
 .accordion-button:not(.collapsed){
     background-color: white;
 }
-
 
 .our-project-section{
     padding-top: 100px;
@@ -1144,6 +1088,7 @@ z-index: 3;
     width: 200px;
     height: 252px;
     border-radius: 20px;
+    position: static;
 
 }
 
@@ -1198,6 +1143,7 @@ z-index: 3;
     border-radius: 20px;
     border-top-left-radius: 60px;
 }
+
 .testimonial-section{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1234,6 +1180,7 @@ z-index: 3;
     height: 450px;
     border-radius: 30px;
     border-bottom-right-radius: 20%;
+    position: static;
 
 }
 
@@ -1264,6 +1211,7 @@ z-index: 3;
     font-size: 16px;
     color: #4a4a4a;
 }
+
 .CTA-section{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -1278,7 +1226,7 @@ z-index: 3;
     height: 400px;
     background-color: rgb(244, 247, 230);
     border-radius: 50px;
-    position: relative;
+    position: static;
 }
 .CTA-heading{
     font-weight: 400;
