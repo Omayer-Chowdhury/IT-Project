@@ -212,9 +212,17 @@ a{
 .CTA-section{
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 100px;
     position: static;
     z-index: 1;
    
+    
+}
+.main-container{
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-left: 50px;
+    padding-left: 120px;
     
 }
 .CTA-content-wrapper{
