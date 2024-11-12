@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul{
+     list-style: none;
+}
+
+#home:hover{
+    color: blueviolet;
+    
+    
+}
+#home{
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    transition-delay:0.5s ;
+}
+
+.home-one{
+    transition: 0.5s  ;
+}
+
+.home-one:hover{
+    color: rgb(110, 8, 206);
+    
+    font-size: 20px;
+   
+    
+}
+#service{
+    font-size: 20px;
+    font-weight: 600;
+}
+.pulse{
+    width: 45px;
+    height: 45px;
+    background-color: #1548b5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.IMG{
+    filter: brightness() invert(1);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#header-section{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: monospace;
+    /* margin-right: 200px; */
+}
+
+#project{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#about{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#pages{
+    font-size: 20px;
+    font-weight: 600;
+}
+#contact{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-item{
+    padding-left: 20px;
+}
+
+#header{
+    background-color: rgb(231, 249, 231);
+
+}
+
+.header-content{
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 200px;
+}
+.heading-section>h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading-section>p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    position: fixed;
+}
+
+.IT-service{
+    padding-top: 100px;
+}
+
+.decoration{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.child-order{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.decoration>ul{
+    list-style:circle;
+}
+ol>li{
+    margin-top: 50px;
+}
+.footer-section{
+    padding-top: 100px;
+     margin-bottom: 100px;
+     background-color: rgb(250, 249, 237);
+ }
+ 
+ .footer-content-wrapper{
+     display: flex;
+     flex-direction: row;
+     justify-content: stretch;
+ }
+ 
+ .footer-input-section{
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+ }
+ 
+ .footer-heading h2{
+     font-size: 25px;
+     font-weight: 400;
+ }
+ 
+ .email-input{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ .email-place{
+     margin-top: 40px;
+     border: none;
+     border-bottom: 1px solid rgb(204, 205, 203);
+     background-color: rgb(250, 249, 237);
+     width: 100%;
+     padding-bottom: 10px;
+ }
+ 
+ .email-icon{
+     margin-left: -20px;
+     margin-top: 50px;
+ }
+ 
+ .email-example{
+     margin-top: 50px;
+ }
+ 
+ .email-example h3:hover{
+     color: #842dda;
+     cursor: pointer;
+ }
+ 
+ .company-address h3{
+     margin-top: 30px;
+     color: #0a223c;
+     font-weight: 350;
+     font-size: 20px;
+ }
+ 
+ .footer-separator{
+     width: 2px;
+     height: 300px;
+     background-color: #dadada;
+     margin-left: 45px;
+     margin-top: 25px;
+ }
+ 
+ .footer-info-section{
+     margin-left: 40px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ 
+ }
+ 
+ .link-column{
+     display: flex;
+     flex-direction: column;
+     align-items: space-between;
+     justify-content: baseline;
+    
+ }
+ .link-column h2{
+     font-size: 22px;
+     text-align: center;
+ }
+ 
+ .link-column ul li {
+     margin-top: 15px;
+ }
+ .link-column ul{
+     font-size: 18px;
+     color: #0a223c;
+     font-weight: 350;
+     margin-top: 40px;
+ }
+ 
+ .link-column ul :hover{
+     color: #842dda;
+ }
+ 
+ .info-column{
+     display: flex;
+     flex-direction: column;
+     margin-left: 50px;
+ }
+ 
+ .info-column h2{
+     font-size: 22px;
+     text-align: center;
+ }
+ 
+ .info-column ul{
+     font-size: 18px;
+     color: #0a223c;
+     font-weight: 350;
+     margin-top: 40px;
+ }
+ .info-column ul :hover{
+     color: #842dda;
+ }
+ 
+ .info-column ul li {
+     margin-top: 15px;
+ }
