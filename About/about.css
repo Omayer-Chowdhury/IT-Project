@@ -11,13 +11,19 @@ ul{
 .menu-bar{
     position: fixed;
     margin-top: -35px;
-    margin-left: 150px;
-    width: 1000px;
-    height: 90px;
-    border-radius: 40px;
+    margin-left: 80px;
+    width: 1100px;
+    height: 65px;
+    border-radius: 80px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    padding-left: 25px;
+    padding-right: 30px;
 
+}
+
+#logo>img{
+    width: 140px;
 }
 #home:hover{
     color: blueviolet;
@@ -807,6 +813,11 @@ div#nav-tab.nav.nav-tabs{
     color: #4a4a4a;
 }
 
+.carousel-inner{
+    overflow: visible;
+}
+
+
 .carousel-control-next{
     position: relative;
     top: 10px;
@@ -818,7 +829,7 @@ div#nav-tab.nav.nav-tabs{
 .carousel-control-prev{
     position: relative;
     top: 42px;
-    left: -15px;
+    left: -20px;
     filter: brightness(0) saturate(100%) invert(4%) sepia(7%) saturate(7405%) hue-rotate(335deg) brightness(97%) contrast(108%);
 }
 
@@ -946,7 +957,7 @@ div#nav-tab.nav.nav-tabs{
 .footer-section{
     padding-top: 100px;
      margin-bottom: 100px;
-     background-color: rgb(250, 249, 237);
+     background-color: rgb(255, 255, 250);
  }
  
  .footer-content-wrapper{

@@ -168,7 +168,7 @@ hr{
 .right-image{
    width: 500px;
    height: 500px;
-   background-image: url(./pictures/p1.jpg);
+   background-image: url(../pictures/p1.jpg);
     margin-top: 40px;
     background-size: cover;
     overflow: hidden;
@@ -184,10 +184,12 @@ hr{
     
 }
 .navbar{
-    position: fixed;
+   position: absolute;
+   z-index: 9;
 }
 .circle-img-section{
     position: relative;
+    
 }
 #img1{
      position: absolute;
@@ -1112,6 +1114,10 @@ z-index: 3;
     margin: auto;
     
 }
+.carousel-inner{
+    overflow: visible;
+}
+
 
 .carousel-control-next{
     position: relative;
@@ -1124,7 +1130,7 @@ z-index: 3;
 .carousel-control-prev{
     position: relative;
     top: 42px;
-    left: -15px;
+    left: -20px;
     filter: brightness(0) saturate(100%) invert(4%) sepia(7%) saturate(7405%) hue-rotate(335deg) brightness(97%) contrast(108%);
 }
 
@@ -1397,7 +1403,7 @@ z-index: 3;
 .footer-section{
    padding-top: 100px;
     margin-bottom: 100px;
-    background-color: rgb(250, 249, 237);
+    background-color: rgb(255, 255, 250);
 }
 
 .footer-content-wrapper{

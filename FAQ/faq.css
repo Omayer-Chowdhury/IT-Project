@@ -11,15 +11,16 @@ ul{
 .menu-bar{
     position: fixed;
     margin-top: -35px;
-    margin-left: 150px;
-    width: 1000px;
-    height: 90px;
-    border-radius: 40px;
+    margin-left: 80px;
+    width: 1100px;
+    height: 65px;
+    border-radius: 80px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    padding-left: 25px;
+    padding-right: 30px;
 
 }
-
 #home:hover{
     color: blueviolet;
     
@@ -130,101 +131,42 @@ a{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-
-
-.Blog-grid{
-    display: grid;
-    grid-template-columns:450px 450px 450px;
-    grid-template-rows:  450px 450px 450px;
-    justify-content: stretch;
-    align-content: stretch;
-    row-gap: 30px;
-    position: static;
+.main-container{
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-left: 50px;
+    padding-left: 120px;
     
 }
 
-.Blog-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: space-between;
-    height: 100%;
-    max-width: 80%;
-    overflow: hidden;
-    border-radius: 24px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-     margin-bottom: 10px;
-     
-}
-
-#thumbnail{
-    display: inline-block;
-    width: 100%;
-    margin: auto;
-    max-height: 80%;
-    height: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-
-#Thumbnail{
-    width:100%;
-    height: 50%;
-    overflow: hidden;
-    
-
-}
-
-.blog-card-name-wrapper{
-    padding-left: 15px;
-    padding-right: 10px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-/* .blog-card-name-Wrapper{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 10px;
-} */
-.blog-card-name{
-    font-size: 22px;
+.accordion-heading{
+    font-size: 25px;
+    font-weight: 700;
     color: #0a223c;
+    position: static;
 }
-
-.blog-card-name:hover{
+.accordion-paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    background-color: white;
     color: #842dda;
-    cursor: pointer;
 }
-.blog-card-lower{
-    display: flex;
-    flex-direction: column;
-    font-weight: 300;
-
+.accordion:after{
+    background-color: #fff;
 }
-
-.blog-text-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-.blog-details{
-    display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-    margin-left: 15px;
+.accordion-button:not(.collapsed){
+    background-color: white;
 }
 
 
 .CTA-section{
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 100px;
-    margin-left: 100px;
+    margin-left: 130px;
     position: static;
     z-index: 1;
    
