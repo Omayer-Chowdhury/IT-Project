@@ -956,8 +956,7 @@ div#nav-tab.nav.nav-tabs{
 
 .footer-section{
     padding-top: 100px;
-     margin-bottom: 100px;
-     background-color: rgb(255, 255, 250);
+    background-color: rgb(255, 255, 250);
  }
  
  .footer-content-wrapper{
@@ -1078,3 +1077,67 @@ div#nav-tab.nav.nav-tabs{
  .info-column ul li {
      margin-top: 15px;
  }
+
+
+ 
+.footer-lower-section{
+    display: block;
+    padding-top: 30px;
+    background-color: rgb(250, 250, 240);
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.footer-lower-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text{
+    display: block;
+}
+
+.social-icon-wrapper{
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    column-gap: 20px;
+}
+
+.copy-right-icon{
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.copy-right-divider{
+    width: 20px;
+    height: 15px;
+    
+}
+.social-div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-icon{
+    display: block;
+    width: 15px;
+    height: 15px;
+    
+
+}
+
+.social-div:hover{
+    background-color:blueviolet;
+}

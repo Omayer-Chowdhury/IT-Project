@@ -22,6 +22,10 @@ ul{
 
 }
 
+#logo>img{
+    width: 140px;
+}
+
 #home:hover{
     color: blueviolet;
     
@@ -154,6 +158,8 @@ a{
     transform: translateX(20px);
     transition: 1s;
     border: 1px solid blue;
+    position: relative;
+    z-index: -1;
     
 }
 
@@ -175,6 +181,28 @@ input:invalid {
     border-color: #e74c3c; 
 }
 
+.checker{
+    margin-left: 50px;
+    margin-top: 50px;
+    transform: scale(2);
+    padding-left: 10px;
+}
+form>b{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+form>b>a{
+    font-weight: 400;
+}
+form>b>.terms-of{
+    margin-left: 75px;
+}
+form>b>a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
 .submit-button{
     background-color: blueviolet;
     color: white;
@@ -185,4 +213,212 @@ input:invalid {
     border: none;
     margin-top: 50px;
     margin-left: 250px;
+}
+
+.log-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Already{
+    font-size: 20px;
+    font-weight: 350;
+}
+.log-in>a{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.log-in>a:hover{
+    color: blueviolet;
+}
+
+.footer-section{
+    padding-top: 100px;
+    background-color: rgb(255, 255, 250);
+ }
+ 
+ .footer-content-wrapper{
+     display: flex;
+     flex-direction: row;
+     justify-content: stretch;
+ }
+ 
+ .footer-input-section{
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+ }
+ 
+ .footer-heading h2{
+     font-size: 25px;
+     font-weight: 400;
+ }
+ 
+ .email-input{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ .email-place{
+     margin-top: 40px;
+     border: none;
+     border-bottom: 1px solid rgb(204, 205, 203);
+     background-color: rgb(250, 249, 237);
+     width: 100%;
+     padding-bottom: 10px;
+ }
+ 
+ .email-icon{
+     margin-left: -20px;
+     margin-top: 50px;
+ }
+ 
+ .email-example{
+     margin-top: 50px;
+ }
+ 
+ .email-example h3:hover{
+     color: #842dda;
+     cursor: pointer;
+ }
+ 
+ .company-address h3{
+     margin-top: 30px;
+     color: #0a223c;
+     font-weight: 350;
+     font-size: 20px;
+ }
+ 
+ .footer-separator{
+     width: 2px;
+     height: 300px;
+     background-color: #dadada;
+     margin-left: 45px;
+     margin-top: 25px;
+ }
+ 
+ .footer-info-section{
+     margin-left: 40px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ 
+ }
+ 
+ .link-column{
+     display: flex;
+     flex-direction: column;
+     align-items: space-between;
+     justify-content: baseline;
+    
+ }
+ .link-column h2{
+     font-size: 22px;
+     text-align: center;
+ }
+ 
+ .link-column ul li {
+     margin-top: 15px;
+ }
+ .link-column ul{
+     font-size: 18px;
+     color: #0a223c;
+     font-weight: 350;
+     margin-top: 40px;
+ }
+ 
+ .link-column ul :hover{
+     color: #842dda;
+ }
+ 
+ .info-column{
+     display: flex;
+     flex-direction: column;
+     margin-left: 50px;
+ }
+ 
+ .info-column h2{
+     font-size: 22px;
+     text-align: center;
+ }
+ 
+ .info-column ul{
+     font-size: 18px;
+     color: #0a223c;
+     font-weight: 350;
+     margin-top: 40px;
+ }
+ .info-column ul :hover{
+     color: #842dda;
+ }
+ 
+ .info-column ul li {
+     margin-top: 15px;
+ }
+
+ 
+.footer-lower-section{
+    display: block;
+    padding-top: 30px;
+    background-color: rgb(250, 250, 240);
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.footer-lower-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-text{
+    display: block;
+}
+
+.social-icon-wrapper{
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    column-gap: 20px;
+}
+
+.copy-right-icon{
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.copy-right-divider{
+    width: 20px;
+    height: 15px;
+    
+}
+.social-div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-icon{
+    display: block;
+    width: 15px;
+    height: 15px;
+    
+
+}
+
+.social-div:hover{
+    background-color:blueviolet;
 }
